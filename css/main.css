@@ -4,12 +4,15 @@
     margin: auto;
 }
 
+body
+
 header {
     background: pink;
     text-align: center;
     margin-bottom: 20px;
     padding: 20px;
     border-bottom: solid 1px #000;
+    border-top: solid 1px #000;
 }
 
 h1 {
@@ -21,8 +24,42 @@ h4 {
     font-family: "Karla", sans-serif;
 }
 
+.bi{
+    color:#ffffff
+}
+
+aside a{
+    margin: 20px 20px;
+    text-decoration: none;
+}
+#menu-principal{
+    list-style-type: none;
+    display: flex;
+    font-family: "Karla", sans-serif;
+}
+
+#menu-principal a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #a78e0d;
+    font-weight: bold;
+    padding: 8px;
+}
+
+#menu-principal a:hover{
+    color: #dddddd;
+    background-color: #ffafe3;
+    padding: 8px;
+}
+
+nav{
+    overflow: hidden;
+    margin: 20px 0;
+}
+
 h2 {
     font-family: "Karla", sans-serif;
+    text-align: center;
 }
 
 h3 {
@@ -31,31 +68,19 @@ h3 {
 
 p {
 
-    text-align: justify;
-    margin: 10px;
     font-family: "Lato", sans-serif;
+}
+
+.presentacion{
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+    margin: 10px; 
 }
 
 #foto-perfil {
     width: 300px;
-    border-radius: 5px;
-    float:center;
-}
-
-nav {
-    text-align: center;
-    margin-bottom: 10px;
-    padding: 20px;
-}
-
-a {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    margin: 0px 10px;
-}
-
-footer {
-    font-family: "Lato", sans-serif;
+    border-radius: 15px;
+    margin: 0 40%   ;
 }
 
 main {
@@ -68,13 +93,15 @@ section {
 
 #proyectos {
     padding: 20px 30px;
-    border-top: solid 5px #c2ad44;
+    border-top: solid 5px #ffa3b4;
     margin-top: 30px;
     text-align: center;
 }
 
+#lista-proyectos{
+    display: flex;
+}
 .proyecto {
-    float: left;
     width: 33%;
     margin-top: 20px;
 }
@@ -88,7 +115,7 @@ section {
 .proyecto p {
     text-align: justify;
     padding: 10px 20px;
-    color: #82018b;
+    color: #000000;
     font-family: "Lato", sans-serif;
 }
 
@@ -102,7 +129,7 @@ section {
     overflow: hidden;
     margin-top: 20px;
     padding: 20px;
-    border-top: solid 5px #dddddd;
+    border-top: solid 5px #c2ad44;
     margin-bottom: 30px;
 }
 
@@ -115,10 +142,10 @@ progress {
 
 .lista-tecnologias {
     list-style: none;
-    display: grid;
+    display: flex;
     margin-left: 0;
-    gap: 15px;
-
+    gap: 10px;
+    margin: 30px;
 }
 
 .lista-tecnologias li {
@@ -127,6 +154,7 @@ progress {
     padding: 12px 20px;
     border-radius: 25px;
     text-align: center;
+
 }
 progress::-moz-progress-bar {
     background-color: #e996c4;
@@ -135,4 +163,41 @@ progress::-moz-progress-bar {
 
 label{
     font-family: "Montserrat", sans-serif;
+}
+
+#contacto{
+padding: 40px;
+}
+
+#contacto p{
+    text-align: center;
+}
+
+.campos{
+    width: 70%;
+    clear: both;
+    font-size: 20px;
+}
+
+.campos label{
+    padding-right: 20px;
+    font-size: medium;
+}
+
+.campos input{
+    padding: 10px;
+    border: solid 2px #ffafe3;
+    width: 50%;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+footer{
+    overflow: hidden;
+    padding: 20px 0;
+    background-color: #e7c556;
+    text-align: center;
+    border-top: solid 2px #f0c784;
+    font-family: "Lato", sans-serif;
 }
