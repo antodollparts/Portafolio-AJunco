@@ -2,14 +2,14 @@
 <html lang="es"> <!--lenguaje de busqueda-->
 
 <head>
-    <title>Portafolio Profesional | Antonella Junco Moran</title> <!--titulo del archivo-->
+    <title>Portafolio Profesional | Antonella Junco Morán</title> <!--titulo del archivo-->
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body> <!-- -contenido visible para el usuario-->
     <header><!--agrupa etiquetas de encabezado-->
         <h1>Portafolio Profesional</h1>
-        <h4>Antonella Junco Moran</h4>
+        <h4>Antonella Junco Morán</h4>
         <aside>
             <a href="https://www.instagram.com/elladxllparts/" class="redes">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -45,7 +45,7 @@
     <main><!--contenido principal-->
         <section>
             <h2>Bienvenidos a mi Portafolio Profesional</h2>
-            <p class="presentacion">Mi nombre es <mark>Antonella Junco Moran</mark>, <strong>experta en Tecnologías de la
+            <p class="presentacion">Mi nombre es <mark>Antonella Junco Morán</mark>, <strong>experta en Tecnologías de la
                     Información</strong> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem
                 Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -60,19 +60,19 @@
             <h2>Mi experiencia profesional</h2>
             <div id="lista-proyectos">
                 <article class="proyecto">
-                    <h3>Aplicación de escritorio para apuntes SmartReview</h3>
+                    <h3>App de escritorio "SmartReview"</h3>
                     <time datetime="2025-07"></time>
                     <img src="images/Foto-proyecto.jpg" alt="">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, itaque.</p>
                 </article>
                 <article class="proyecto">
-                    <h3>Aplicación movil para cuidado de mascotas</h3>
+                    <h3>App móvil "4PetsCare"</h3>
                     <time datetime="2025-08"></time>
                     <img src="images/Foto-proyecto.jpg" alt="">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, itaque.</p>
                 </article>
                 <article class="proyecto">
-                    <h3>Aplicación web para denuncias en línea</h3>
+                    <h3>App web "GITAS-QR"</h3>
                     <time datetime="2025-09"></time>
                     <img src="images/Foto-proyecto.jpg" alt="">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, itaque.</p>
@@ -111,15 +111,56 @@
             <p>Platicame de tu proyecto, llena los datos y te contactaré</p>
             <form action="">
                 <div class="campos">
-                    <label for="">Nombre completo:</label>
-                    <input type="text" name="nombre" placeholder="Nombre completo"/>
-                    <button>Enviar</button>
+                    <label>Nombre completo:</label>
+                    <input type="text" name="nombre" placeholder="Nombre completo" required/>
+                    
+                </div>
+                <div class="campos">
+                    <label>Email:</label>
+                    <input type="email" name="correo_electronico" placeholder="ejemplo@utcancun.edu.mx" required>
+                </div>
+                <div class="campos">
+                    <label>Motivo:</label>
+                    <select>
+                        <option>Contacto</option>
+                        <option selected>Cotización</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label for="">Teléfono:</label>
+                    <input type="tel">
+                </div>
+                <div class="campos">
+                    <label>Fecha:</label>
+                    <input type="date">
+                </div>
+                <div class="campos">
+                    <label>Número de empleados:</label>
+                    <input type="number">
+                </div>
+                <div class="campos">
+                    <label>Modo de contacto:</label>
+                    <input type="checkbox" class="opciones_contacto" name="modalidad"><span>WhatsApp</span>
+                    <input type="checkbox" class="opciones_contacto" name="modalidad"><span>Correo</span>
+                </div>
+                <div class="campos">
+                    <label>¿Eres cliente?</label>
+                    <input type="radio" class="opciones_cliente" name="es_cliente"><span>Si</span>
+                    <input type="radio" class= "opciones_cliente" name="es_cliente"><span>No</span>
+                </div>
+                <div class="campos">
+                    <label>Fotografía:</label>
+                    <input type="file">
+                </div>
+                <div class="campos">
+                    <button type="submit">Enviar</button>
                 </div>
             </form>
         </section>
     </main>
     <footer> <!--pie de pagina-->
-        <p>&copy; 2025 Todos los derechos reservados - Antonella Junco Moran</p>
+        <p>&copy; 2025 Todos los derechos reservados - Antonella Junco Morán</p>
     </footer>
 </body>
 
